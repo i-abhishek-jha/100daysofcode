@@ -1,5 +1,4 @@
 # Haunted Mansion
-
 print(r'''
                                               ,           ^'^  _
                                               )               (_) ^'^
@@ -26,10 +25,10 @@ print("You hear a strange voice whisper:")
 print("You may leave before midnight... if you survive.")
 
 has_key = False
-choice1 = input("Do you want to go upstairs or enter the basement? Type 'upstairs' or 'basement'\n").lower()
+choice1 = input("Do you want to go upstairs or enter the basement? Type \"upstairs\" or \"basement\"\n").lower()
 if choice1 == "basement":
     print("You enter the basement and find a locked chest.")
-    choice2 = input("Do you want to search for a key or force the chest open? Type 'force' or 'search'\n").lower()
+    choice2 = input("Do you want to search for a key or force the chest open? Type \"force\" or \"search\"\n").lower()
     if choice2 == "search":
         print("You find a silver key inside an old drawer!")
         has_key = True
@@ -44,7 +43,7 @@ if choice1 == "basement":
 elif choice1 == "upstairs":
     print("A ghost appears in front of you!")
 
-    choice3 = input("Do you want to hide in a room or run down the hallway? Type 'hide' or 'run'\n").lower()
+    choice3 = input("Do you want to hide in a room or run down the hallway? Type \"hide\" or \"run\"\n").lower()
     if choice3 == "hide":
         print("You hide in a room and discover a silver key!")
         has_key = True
@@ -64,7 +63,7 @@ if has_key:
     print("\nYou reach the final hallway."
           "You see three possible escape routes.")
 
-    choice4 = input("Where do you want to go? Type 'door', 'window', or 'tunnel':\n").lower()
+    choice4 = input("Where do you want to go? Type \"door\", \"window\", or \"tunnel\":\n").lower()
 
     if choice4 == "door":
         print("\nYou insert the silver key into the lock."
