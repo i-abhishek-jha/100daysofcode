@@ -1,1 +1,0 @@
-print(chosen_word)
